@@ -1,4 +1,6 @@
 package br.com.etechas.etecfood.repository;
 
-public interface UsuarioRepository  {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UsuarioRepository extends JpaRepository {
 }
