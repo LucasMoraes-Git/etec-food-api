@@ -7,7 +7,9 @@ import br.com.etechas.etecfood.repository.UsuarioRepository;
 
 @RestController
 @RequestMapping("/usuario")
+// Classe responsável por gerenciar as requisições relacionadas aos usuários.
 public class UsuarioController {
     @Autowired
+// Repositório usado para operações de CRUD com a entidade Usuario
     private UsuarioRepository usuarioRepository;
 }
