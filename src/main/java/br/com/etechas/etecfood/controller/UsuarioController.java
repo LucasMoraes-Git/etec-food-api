@@ -23,7 +23,7 @@ public class UsuarioController {
 
     @GetMapping("/{id}")
     public Usuario buscarPorId(@PathVariable Long id){
-        var usuario = UsuarioRepository.findById(id);
+        var usuario = usuarioRepository.findById(id);
         if(usuario.isPresent())
             return usuario.get();
         return null;
