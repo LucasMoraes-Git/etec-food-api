@@ -1,4 +1,7 @@
 package br.com.etechas.etecfood.repository;
 
-public interface RestauranteRepository {
+import br.com.etechas.etecfood.entity.Restaurante;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RestauranteRepository extends JpaRepository<Restaurante, Long> {
 }
