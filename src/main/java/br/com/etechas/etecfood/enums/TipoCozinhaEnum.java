@@ -8,7 +8,7 @@ NOMES:
     Gustavo Rodrigues
  */
 
-package br.com.etechas.etecfood.entity;
+package br.com.etechas.etecfood.enums;
 
 public enum TipoCozinhaEnum {
     CHINESA,

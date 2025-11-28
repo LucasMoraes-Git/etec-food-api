@@ -3,7 +3,7 @@
  * João Pedro Vieira
  * Lucas de Andrade Moraes
  * Raphael Luis*/
-package br.com.etechas.etecfood.entitys;
+package br.com.etechas.etecfood.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

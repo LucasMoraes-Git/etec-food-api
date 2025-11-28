@@ -4,13 +4,15 @@
 * Lucas de Andrade Moraes
 * Raphael Luis*/
 
-package br.com.etechas.etecfood.entitys;
+package br.com.etechas.etecfood.entity;
 
+import br.com.etechas.etecfood.entity.Entregador;
+import br.com.etechas.etecfood.enums.TipoVeiculoEnum;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import br.com.etechas.etecfood.Enums.TipoVeiculoEnum;
+
 
 @Getter
 @Setter
